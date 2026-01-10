@@ -1,0 +1,143 @@
+---
+import Button from '../components/ui/Button.astro'
+import { siteConfig } from '@/config/site'
+import HeroCard from '@/components/home/HeroCard.astro'
+import Layout from '@/layouts/Layout.astro'
+import FeaturedWork from '../components/sections/FeaturedWork.astro'
+import BlogSection from '@/components/sections/BlogSection.astro'
+import SocialCard from '@/components/cards/SocialCard.astro'
+import AnimatedText from '@/components/ui/AnimatedText.astro'
+import Explore from '@/components/sections/Explore.astro'
+---
+
+<Layout
+  title="Rico 作品集 2025"
+  description="欢迎来到 Rico 的设计师作品集，探索融合美学与交互的网页/UI项目"
+  keywords="Rico, 作品集, 网页设计, UI, 前端, 创意设计"
+>
+  <div
+    class="relative site-container z-20 w-full mx-auto mt-16 px-4 md:mt-18 lg:mt-20 xl:px-0"
+  >
+    <div
+      class="relative w-full px-4 flex flex-col items-center justify-between md:flex-row mb-16"
+    >
+      <div
+        class="relative w-full md:max-w-[420px] md:w-1/2 text-center sm:text-left sm:-mt-8"
+      >
+        <!-- Title - AnimatedText animation -->
+        <h1 class="mb-4">
+          <AnimatedText
+            content="你好，我是 Rico"
+            delay={0.1}
+            duration={0.5}
+            stagger={0.08}
+            class="text-5xl text-pri leading-tight md:text-4xl lg:text-6xl font-brand"
+          />
+        </h1>
+
+        <!-- First description - AnimatedText animation -->
+        <div class="mb-2">
+          <AnimatedText
+            content="我是一名拥有 8+ 年经验的网页与 UI 设计师，热衷将设计与代码融合，打造引人入胜的视觉与互动体验。"
+            delay={0.3}
+            duration={0.5}
+            stagger={0.015}
+            class="text-base text-neutral-700 dark:text-neutral-300"
+          />
+        </div>
+
+        <!-- Second description - AnimatedText animation -->
+        <div class="mb-4">
+          <AnimatedText
+            content="我相信优秀的设计既要愉悦感官，也要解决真实的商业问题。"
+            delay={0.5}
+            duration={0.5}
+            stagger={0.015}
+            class="text-base text-neutral-700 dark:text-neutral-300"
+          />
+        </div>
+
+        <!-- Button - AOS animation -->
+        <div
+          class=""
+          data-aos="fade-up-sm"
+          data-aos-delay="900"
+          data-aos-duration="500"
+          data-aos-once="true"
+        >
+          <Button
+            url={siteConfig.social.twitter}
+            type="fill"
+            className="m-auto mt-4 text-center sm:text-left sm:m-0 sm:mt-6 max-w-[200px]"
+          >
+            在 𝕏 上关注我
+          </Button>
+        </div>
+
+        <!-- Social Cards - AOS animation -->
+        <div
+          class="social mt-8 mb-8"
+          data-aos="fade-up-sm"
+          data-aos-delay="1000"
+          data-aos-duration="600"
+          data-aos-once="true"
+        >
+          <SocialCard displaySocialIds={[1, 2, 3, 4]} />
+        </div>
+      </div>
+
+      <!-- HeroCard - AOS animation -->
+      <div
+        class="relative justify-end w-full mt-16 md:flex md:pl-10 md:w-1/2 md:mt-0 md:translate-y-4 xl:translate-y-0"
+        data-aos="fade-left-sm"
+        data-aos-delay="300"
+        data-aos-duration="800"
+        data-aos-once="true"
+      >
+        <HeroCard
+          imageUrl="/assets/home/gradientshub.jpg"
+          title="Gradientshub"
+          link="https://gradientshub.com"
+        />
+      </div>
+    </div>
+  </div>
+
+  <section
+    class="mt-26 mb-12"
+    data-aos="fade-up-sm"
+    data-aos-delay="100"
+    data-aos-duration="600"
+    data-aos-once="true"
+  >
+    <Explore title="探索 ↓" />
+  </section>
+
+  <section
+    class="mt-26 mb-12"
+    data-aos="fade-up-sm"
+    data-aos-delay="100"
+    data-aos-duration="600"
+    data-aos-once="true"
+  >
+    <FeaturedWork
+      title="精选项目 ↓"
+      description="我打造兼具创新与目的性的设计，用视觉与策略驱动可衡量的成果。"
+      limit={5}
+    />
+  </section>
+
+  <section
+    class="mt-26 mb-12"
+    data-aos="fade-up-sm"
+    data-aos-delay="100"
+    data-aos-duration="600"
+    data-aos-once="true"
+  >
+    <BlogSection
+      title="最新文章  ↓"
+      description="汇集设计、开发与生活灵感的思考笔记。"
+      showViewAllButton={true}
+    />
+  </section>
+</Layout>

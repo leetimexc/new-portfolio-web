@@ -1,0 +1,16 @@
+---
+import PageLayout from '@/layouts/PageLayout.astro'
+import PageHeader from '@/components/elements/PageHeader.astro'
+import Button from '@/components/ui/Button.astro'
+---
+
+<PageLayout title="页面未找到">
+  <section
+    class="site-container m-auto min-h-[50vh] flex flex-col items-center justify-center"
+  >
+    <PageHeader title="404 - 找不到页面" description="点击按钮返回首页" />
+    <div class="mt-0 flex justify-center">
+      <Button url="/">返回首页</Button>
+    </div>
+  </section>
+</PageLayout>
