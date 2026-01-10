@@ -50,9 +50,3 @@ Docker
 Linux
 
 ---
-
-### Maven
-
-管理和创建 Java 项目的工具，apache 旗下的开源项目。
-
-tips: apache 全球最大开源软件基金会
