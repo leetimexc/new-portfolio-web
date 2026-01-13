@@ -1,17 +1,37 @@
 [
 	{
-		"dates": "2018年6月 · 至今",
-		"role": "网页与产品设计师",
-		"company": "Company Name",
-		"description": "主导以用户为中心的网络应用与交友平台设计。",
-		"logo": "/assets/experiences/company.jpg"
+		"dates": "2025年1月 · 至今",
+		"role": "前端开发主管",
+		"company": "上海九影网络科技有限公司",
+		"description": "技术选型，框架搭建，解决关键技术难题，团队人员协调，项目风险和进度跟进，跨部门沟通协作等。",
+		"logo": "/assets/experiences/jy_logo.png"
 	},
 	{
-		"dates": "2016年7月 · 2017年6月",
-		"role": "网页与产品设计师",
-		"company": "Company Name",
-		"description": "负责电商网站与线上商城的设计与实现。",
-		"logo": "/assets/experiences/company.jpg"
+		"dates": "2024年5月 · 2024年11月",
+		"role": "高级前端开发工程师",
+		"company": "上海商派网络科技有限公司",
+		"description": "后台拖拽低代码，便捷配置前端页面。",
+		"logo": "/assets/experiences/sp_logo.png"
+	},
+  {
+		"dates": "2019年9月 · 2024年1月",
+		"role": "高级前端开发工程师",
+		"company": "上海悦米信息技术有限公司",
+		"description": "基于微信生态的开发项目，企微、公众号、小程序等。并参与公司组件库和方法库的开发与维护，提升开发效率和代码质量。",
+		"logo": "/assets/experiences/ym_logo.jpg"
+	},
+  {
+		"dates": "2018年5月 · 2019年9月",
+		"role": "前端开发工程师",
+		"company": "上海派维网络科技有限公司",
+		"description": "参与公司商城小程序产品开发。服务于大悦城、悦方、凯德、爱琴海、189购物中心等知名购物商场。",
+		"logo": "/assets/experiences/payway_logo.jpg"
+	},
+  {
+		"dates": "2015年5月 · 2017年11月",
+		"role": "高级设计师",
+		"company": "山东蓝筹信息科技有限公司",
+		"description": "对接客户整理需求，绘制原型图，确认需求并进行作品设计。",
+		"logo": "/assets/experiences/hm_logo.jpg"
 	}
-
 ]

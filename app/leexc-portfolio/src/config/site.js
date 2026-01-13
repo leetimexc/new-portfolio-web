@@ -3,8 +3,8 @@
 const SITE_URL = import.meta.env.PUBLIC_SITE_URL || 'https://portfolio.ricoui.com/';
 
 export const siteConfig = {
-	title: "Ricoui Portfolio",
-	author: "Ricoui",
+	title: "李帅 Portfolio",
+	author: "李帅",
 	url: SITE_URL,
 	mail: "hello@ricoui.com",
 	// resume add your resume file path here: /assets/resume.pdf
